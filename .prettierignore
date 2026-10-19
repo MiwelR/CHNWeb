@@ -1,0 +1,11 @@
+node_modules
+dist
+build
+coverage
+storybook-static
+.vite
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
