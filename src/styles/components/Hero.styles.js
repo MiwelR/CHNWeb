@@ -146,9 +146,7 @@ export const heroSectionStyles = css`
   }
 
   .primary-button:hover {
-    background: linear-gradient(135deg, var(--color-primary-blue), var(--color-primary-green));
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-xl);
+    background: #fff;
   }
 
   .primary-button:hover .lucide-arrow-right {

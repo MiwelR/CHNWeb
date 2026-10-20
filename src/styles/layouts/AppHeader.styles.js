@@ -4,7 +4,6 @@ export const appHeaderStyles = css`
   :host {
     display: block;
     scroll-behavior: smooth;
-    font-family: var(--font-family);
     font-size: 1rem;
     font-weight: 500;
   }
@@ -139,10 +138,10 @@ export const appHeaderStyles = css`
     .desktop-menu-button {
       padding: var(--space12) var(--space16);
       border-radius: var(--radius-lg);
-      font-family: var(--font-family);
+      font-family: var(--font-sans);
       font-size: 0.9375rem;
       font-weight: 500;
-      color: var(--color-text-secondary);
+      color: #fff;
       transition: all var(--transition-fast) 0.15s cubic-bezier(0.4, 0, 0.2, 1);
       position: relative;
       border: 1px solid transparent;
@@ -151,26 +150,18 @@ export const appHeaderStyles = css`
     }
 
     .desktop-menu-button::after {
-      content: '';
       position: absolute;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%) scaleX(0);
-      width: 80%;
-      height: 2px;
-      background: linear-gradient(90deg, var(--color-primary-green), var(--color-primary-blue));
-      border-radius: 2px;
-      transition: transform var(--transition-base);
-    }
-
-    .desktop-menu-button:hover {
-      color: var(--color-text-primary);
-      background-color: var(--color-bg-secondary);
-      border-color: var(--color-border);
+      right: 100%;
+      bottom: -0.55rem;
+      left: 0;
+      height: 1px;
+      background: white;
+      content: '';
+      transition: right 200ms ease;
     }
 
     .desktop-menu-button:hover::after {
-      transform: translateX(-50%) scaleX(1);
+      right: 0;
     }
 
     .desktop-menu-divider {
