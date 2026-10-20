@@ -1,6 +1,6 @@
 export const SEND_FORM_ENDPOINT = 'https://formspree.io/f/moejzwpe';
 
-export const EMAIL = 'charonavajasmartinez@gmail.com';
+export const EMAIL = 'info@chninmobiliaria.es';
 export const PHONE = '+34699581730';
 export const CONTACT_LINKS = {
   EMAIL: `mailto:${EMAIL}`,
