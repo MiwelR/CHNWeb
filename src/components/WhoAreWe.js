@@ -10,7 +10,7 @@ export class WhoAreWeSection extends I18nMixin(LitElement) {
   static styles = [whoAreWeSectionStyles];
 
   #getExperienceDuration() {
-    const startDate = '2011';
+    const startDate = '2016-10-01';
     const endDate = Date.now();
     const { years } = calculateDuration(startDate, endDate);
     return years;

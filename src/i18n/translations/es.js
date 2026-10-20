@@ -2,7 +2,7 @@ export default {
   header: {
     menu: {
       home: 'Inicio',
-      about: 'Quienes somos',
+      about: 'Quien soy',
       services: 'Servicios',
       calculator: 'Calcula tu hipoteca',
       contact: 'Contacto',
@@ -19,7 +19,7 @@ export default {
       secondaryButton: 'DESCUBRE CÓMO PUEDO AYUDARTE',
     },
     whoAreWe: {
-      eyebrow: 'Quienes somos',
+      eyebrow: 'Quien soy',
       titleOne: 'Soy Charo.',
       titleTwo: 'Y estoy a tu lado.',
       description1:
