@@ -52,9 +52,15 @@ export default {
         },
         three: {
           number: '03',
-          title: 'Gestión y asesoramiento',
+          title: 'Gestión',
           description:
             'Trámites, documentación y decisiones complejas explicadas con claridad y sin letra pequeña.',
+        },
+        four: {
+          number: '04',
+          title: 'Asesoramiento',
+          description:
+            'Todo lo relacionado con hipotecas, herencias, donaciones y cualquier documentación necesaria sobre bienes inmuebles.',
         },
       },
     },

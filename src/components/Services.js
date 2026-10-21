@@ -49,6 +49,15 @@ export class ServicesSection extends I18nMixin(ScopedElementsMixin(LitElement)) 
                 </p>
               </div>
             </article>
+            <article class="services-items">
+              <span class="item-number">${this.i18nMsg('home.services.items.four.number')}</span>
+              <h3 class="item-title">${this.i18nMsg('home.services.items.four.title')}</h3>
+              <div class="item-description-wrapper">
+                <p class="item-description">
+                  ${this.i18nMsg('home.services.items.four.description')}
+                </p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
